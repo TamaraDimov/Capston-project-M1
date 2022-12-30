@@ -56,7 +56,6 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [NEW WAYS OF TECHNICAL DRAWING] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
 **[NEW WAYS OF TECHNICAL DRAWING]** is a web page where you can log in and join the course for mechanical technical drawing.
 
@@ -66,10 +65,10 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> Few of the key features of these project are:
 
 - **[Section "Featured speakers" should be created dynamically in JavaScript]**
-- **[different pages]**
+- **[Different pages]**
 - **[Responsive website]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -78,9 +77,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> For live demo pleace click below
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://tamaradimov.github.io/Capston-project-M1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,8 +101,6 @@ https://github.com/TamaraDimov/Capston-project-M1.git
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Tamara Dimov**
 
 - GitHub: [@TamaraDimov](https://github.com/TamaraDimov)
@@ -122,11 +119,11 @@ https://github.com/TamaraDimov/Capston-project-M1.git
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Features that are expected in near future.
 
 - [ ] **[Validate contact form]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+<!-- - [ ] **[new_feature_2]**
+- [ ] **[new_feature_3]** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,9 +151,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> I would like to thank Cindy Chin for creating the original design idea
 
-I would like to thank...
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
