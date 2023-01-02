@@ -72,8 +72,8 @@ window.addEventListener("load", () => {
   ];
   // function to load portfolio sections dynamically when page loads
   function loadPortfolio(callBack = () => null) {
-    const workSectionElemnt = document.querySelector("#portfolio");
-    workSectionElemnt.innerHTML = workCard(workData);
+    const workSectionElement = document.querySelector("#portfolio");
+    workSectionElement.innerHTML = workCard(workData);
     return callBack();
   }
 
@@ -82,11 +82,6 @@ window.addEventListener("load", () => {
     Array.from(portfolioButton).forEach((element) => {
       element.addEventListener("click", (e) => {
         e.preventDefault();
-        const id = element.getAttribute("data-id");
-        const filter = workData.filter((data) => data.id === id);
-
-        // show modal
-        showModal(filter[0], closeModal);
       });
     });
   });
@@ -109,107 +104,8 @@ const menuBtn = document.querySelectorAll(".menuBtn");
 const menuArr = Array.from(menuBtn);
 menuArr.forEach((element) => {
   element.addEventListener("click", () => {
-    toggleNavbar();
+    if (window.screen.width < 769) {
+      toggleNavbar();
+    }
   });
 });
-
-// <!-- about page  -->
-
-const about = (about) => {
-  let content = "";
-  about.forEach((about) => {
-    content += `<article class="about" id="about">
-    <section class="main-container-about">
-      <nav class="first-header">
-        <div class="logo">
-          <i style="font-size: 48px" class="fas logo">&#xf7d9;</i>
-        </div>
-        <div class="toggle menu">
-          <a href="#" class="toggleNav">
-            <i style="font-size: 24px" class="fas">&#xf0c9;</i></a
-          >
-          <div class="exit">
-            <a href="#" class="exit toggleNav">
-              <i style="font-size: 24px" class="fas">&#xf00d;</i>
-            </a>
-          </div>
-          <ul class="desktopMenu">
-            <li class="menuBtn"><a href="#about">About</a></li>
-            <li class="menuBtn"><a href="#program">Program</a></li>
-            <li class="menuBtn"><a href="#join">Join</a></li>
-            <li class="menuBtn"><a href="#partners">Sponsor</a></li>
-            <li class="menuBtn"><a href="#news">News</a></li>
-          </ul>
-          <button class="sign-in">JOIN</button>
-        </div>
-      </nav>
-      <div class="main-page">
-        <h3 class="welcome">Welcome to the world of Mechanical Design!!!</h3>
-        <h1 class="title">NEW WAYS OF TECHNICAL DRAWING</h1>
-        <p class="description-about">
-          Technical drawings today
-    Before we look at the future of technical drawings, we should look at their present function in an enterprise.
-    Technical drawings are an important way of communication between all parties involved in order processing. The workpiece or assembly is completely described for production without any further inquiries. Therefore, drawings are an important part of the contract in the procurement process.
-    Creating a drawing is very time-consuming, even with an existing 3D model. It takes time to position all the required views on the sheet and add all the necessary dimensions and annotations. Often queries come from the production department, even though the components are supposed to be completely described within the drawing!
-        </p>
-        <div class="contact-about">
-        <p>Please contact us per EMAIL for any further questions about technical drawing academy</p>
-        <p class="email">technical.drawing@mfs.org</p>
-      </div>
-      </div>
-    </section>
-    
-    <section class="past">
-      <div class="past-meeting">
-        <h3 class="see-past">See the past TD classes</h3>
-        <div class="red-line" id="about-line">
-        </div>
-        <p4 class="take_look">Take a look at previous classes in the Academy</p4>
-      </div>
-      
-      <div class="classes">
-        <div class="overlay">
-        <h2 class="">2022</h2>
-        <p>100 students succesfully finished</p>
-      </div>
-      </div>
-  
-      <div class="classes2">
-        <div class="overlay"></div>
-        <h2 class="">2021</h2>
-        <p>80 students succesfully finished</p>
-      </div>
-    </div>
-    </section>
-    <section class="footer">
-      <div class="title1">
-       <h2 class="title1">Partner</h2>
-       <div class="red-line">
-       </div>
-         </div>
-       <div class="partners" id="partners">
-        <a target="_blank" href="https://www.mf.ukim.edu.mk/" alt="MFS main page"><img class="icon-logo" src="img/mfs.png" alt="mfs main page"/></a>
-        <a target="_blank" href="https://github.com/" alt="github main page"><img class="icon-logo" src="img/github-icon-38976.png" alt="github main page"/></a>
-        <a target="_blank" href="https://www.google.com/" alt="Google main page"><img class="icon-logo" src="img/580b57fcd9996e24bc43c51f.png" alt="Google main page"/></a>
-        <a target="_blank" href="https://www.solidworks.com/" alt="Google main page"><img class="icon-logo" src="img/sw.png" alt="SolidWorks main page"/></a>
-      </div>
-      <div title="bottom-element" class="bottom-element">
-        <i style="font-size: 48px" class="fas logo-icon">&#xf7d9;</i>
-        <div class="title-footer">
-          <h6>Mechanical Design Academy</h6>
-          <p class="author">Tamara Dimov</p>
-        </div>
-       </div>
-        </div>
-      </div>
-    </section>
-    </article>`;
-  });
-  return content;
-};
-// function to load about sections dynamically when page loads
-function loadAbout(callBack = () => null) {
-  const workSectionElemnt = document.querySelector("#about");
-  workSectionElemnt.innerHTML = about(about);
-  return callBack();
-}
