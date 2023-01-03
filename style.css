@@ -5,6 +5,10 @@
   font-family: "Lato", sans-serif;
 }
 
+.media-nav {
+  display: none;
+}
+
 /* main page */
 .sign-in,
 .logo {
@@ -265,7 +269,7 @@
   margin-bottom: 5px;
 }
 
-.job-title {
+.job {
   color: #ec5242;
   font-style: italic;
   margin-bottom: 5px;
@@ -345,7 +349,7 @@
 
 .past {
   text-align: center;
-  border-top: 1px solid #272a31;
+  border-top: 2px solid #d3d3d3;
   padding-top: 30px;
   display: flex;
   flex-direction: column;
@@ -353,8 +357,7 @@
   align-items: center;
 }
 
-.classes,
-.classes2 {
+.classes {
   margin: 5%;
   width: 90%;
   height: 300px;
@@ -394,9 +397,54 @@
   margin-top: 20px;
 }
 
+.wrap-classes {
+  width: 100%;
+}
+
+.middle-page {
+  /* text-align: center; */
+  margin-top: 30px;
+  display: grid;
+  justify-items: center;
+}
+
+.middle-page p {
+  width: 80%;
+  /* margin: 0 40px; */
+  padding-bottom: 30px;
+}
+
+.logo-about {
+  display: flex;
+  border: 2px solid #d3d3d3;
+  justify-items: center;
+  margin-bottom: 30px;
+  gap: 20px;
+  align-items: center;
+}
+
+.text {
+  padding-top: 40px;
+  padding-right: 20px;
+}
+
 @media (min-width: 768px) {
   .show {
     display: none;
+  }
+
+  .media-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    padding: 0 20px;
+    gap: 20px;
+    color: white;
+    background-color: #272a31;
+  }
+
+  .media-nav i {
+    padding-top: 6px;
   }
 
   /* first page */
@@ -552,10 +600,20 @@
     margin-bottom: 30px;
   }
 
-  .classes,
-  .classes2 {
-    margin: 5%;
-    width: 90%;
-    height: 600px;
+  .about-footer {
+    margin-top: 30px;
+    background-color: #272a31;
+    color: white;
+    justify-content: center;
+  }
+
+  .end-line {
+    border: 2px solid #a83023;
+  }
+
+  .wrap-classes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
   }
 }

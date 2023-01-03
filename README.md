@@ -56,7 +56,6 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [NEW WAYS OF TECHNICAL DRAWING] <a name="about-project"></a>
 
-
 **[NEW WAYS OF TECHNICAL DRAWING]** is a web page where you can log in and join the course for mechanical technical drawing.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -107,12 +106,6 @@ https://github.com/TamaraDimov/Capston-project-M1.git
 - Twitter: [@DimovTamara](https://twitter.com/home)
 - LinkedIn: [Tamara Dimov](https://www.linkedin.com/in/tamara-dimov-b85139a2/)
 
-👤 **Cindy Shin**
-
--Original design idea by Cindy Shin in Behance.
-
-- Behance: [@Cindy Shin](https://www.behance.net/adagio07)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -152,8 +145,6 @@ If you like this project...
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > I would like to thank Cindy Chin for creating the original design idea
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
