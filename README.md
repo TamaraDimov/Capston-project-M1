@@ -161,8 +161,6 @@ If you like this project...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
 - **[How much is the enrollment fee [for this class]?]**
 
   - [There are few levels of the courses and the price depends on the level. Please give us more details about which course you want to apply or you can always write us an email.Thank you]
