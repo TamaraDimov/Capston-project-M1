@@ -38,6 +38,10 @@
   padding-bottom: 30px;
 }
 
+.about-welcome {
+  width: 100%;
+}
+
 .title {
   font-size: 40px;
   font-weight: 900;
